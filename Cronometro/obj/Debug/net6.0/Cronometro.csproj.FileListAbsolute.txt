@@ -1,0 +1,5 @@
+C:\Users\Carlos Baldim\source\repos\Cronometro-CSharp\cronometro-csharp\Cronometro\obj\Debug\net6.0\Cronometro.csproj.AssemblyReference.cache
+C:\Users\Carlos Baldim\source\repos\Cronometro-CSharp\cronometro-csharp\Cronometro\obj\Debug\net6.0\Cronometro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Baldim\source\repos\Cronometro-CSharp\cronometro-csharp\Cronometro\obj\Debug\net6.0\Cronometro.AssemblyInfoInputs.cache
+C:\Users\Carlos Baldim\source\repos\Cronometro-CSharp\cronometro-csharp\Cronometro\obj\Debug\net6.0\Cronometro.AssemblyInfo.cs
+C:\Users\Carlos Baldim\source\repos\Cronometro-CSharp\cronometro-csharp\Cronometro\obj\Debug\net6.0\Cronometro.csproj.CoreCompileInputs.cache
