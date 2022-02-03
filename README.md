@@ -1,3 +1,3 @@
 # cronometro-csharp
 
-Curso C# Balta.IO
+Estudo c#
