@@ -14,16 +14,36 @@ namespace Cronometro
             Console.Clear();
             Console.WriteLine("S = Segundo => 10s = 10 segundos");
             Console.WriteLine("M = Minuto => 1m = 1 minuto");
-            Console.WriteLine("0 = Sair");
+            Console.WriteLine("0s = Sair");
             Console.WriteLine("Quando tempo deseja contar?");
 
-            string data = Console.ReadLine().ToLower();           
+            string data = Console.ReadLine().ToLower();      
+              
             char type = char.Parse(data.Substring(data.Length-1,1));
             int time = int.Parse(data.Substring(0, data.Length -1));
+            int multiplier = 1;
 
+            if(type == 'm')
+                multiplier = 60;
 
-            Console.WriteLine(time);
-            Console.WriteLine(type);
+            if (time == 0)
+                System.Environment.Exit(0);
+
+            PreStart(time * multiplier);
+
+        }
+
+        static void PreStart(int time)
+        {
+            Console.Clear();
+            Console.Write("Atenção...");
+            Thread.Sleep(1000);
+            Console.Write("Vai começar...");
+            Thread.Sleep(1000);
+            Console.Write("Agora!!!");
+            Thread.Sleep(2500);
+
+            Start(time);
 
         }
 
@@ -41,6 +61,7 @@ namespace Cronometro
             Console.Clear();
             Console.WriteLine("Finalizado!");
             Thread.Sleep(2500);
+            Menu();
         }
     }
 }
